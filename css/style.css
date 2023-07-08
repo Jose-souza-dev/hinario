@@ -1,0 +1,103 @@
+@media(min-width:00px){
+    body{background: #FFE1CF; width: 100%; height: 100vh;}
+    *{margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;}
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aviso{
+        text-align: center;
+        color:red;
+        margin: 10px 0;
+    }
+
+   .container img#logo{
+        width: 60%;
+        margin: -100px 20% 0 20%;
+    }
+    .container a#hinario{
+        width: 40%;
+        height: 20px;
+        margin: 10px 30%;
+        text-align: center;
+        background: #9E150B;
+        color: #fff;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: 10px 0;
+        border-radius: 10px;
+    }
+
+/*style para lista.html*/
+.container img#logo-lista{
+    width: 20%;
+    margin: -80px 40% 0 40%;
+}
+.lista{
+    width: 90%;
+    height: 800px;
+    margin: 10px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin: 15px 0;
+}
+.listas{
+    width: 100%;
+    text-align: center;
+    background: #FFE1CF;
+    color:#9E150B;
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/*style para músicas*/
+.container img#logo-music{
+    width:20%;
+    margin:-70px 40% 0 40%;
+}
+.musica{
+    width: 90%;
+    height: 100vh;
+
+    margin: -60px 5% 0 5%;
+    text-align: center;
+}
+.musica h1{
+    font-size: 18px;
+    color:#9E150B;
+    text-align: center;
+    margin: 20px 0;
+}
+p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+a#voltar{
+    width: 40%;
+    height: 20px;
+    margin: -150px 30% 0 30%;
+    text-align: center;
+    background: #9E150B;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+    
+}/*fim da média*/
