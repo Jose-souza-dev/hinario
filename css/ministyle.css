@@ -26,7 +26,27 @@
         font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
         padding: 10px 0;
-        border-radius: 10px;
+        border-radius: 4px;
+    }
+
+    img#qrc{
+        width: 50%;
+        margin: 10px 25%;
+        display: none;
+    }
+
+    a#qrc{
+        width: 40%;
+        height: 20px;
+        margin: 10px 30%;
+        text-align: center;
+        background: #9E150B;
+        color: #fff;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: 10px 0;
+        border-radius: 4px;
     }
 
 /*style para lista.html*/
@@ -82,6 +102,31 @@ a#voltar{
     width: 40%;
     height: 20px;
     margin: -150px 30% 0 30%;
+    text-align: center;
+    background: #9E150B;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*pagina do qrcode*/
+#hqrc{
+    text-align: center;
+    background: none;
+    margin-top: 20px;
+}
+#qrcode{
+    width: 70%;
+    margin: 10px 15%;
+}
+
+a#volta{
+    width: 40%;
+    height: 20px;
+    margin: 50px 30% 0 30%;
     text-align: center;
     background: #9E150B;
     color: #fff;
