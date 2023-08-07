@@ -31,6 +31,19 @@
         padding: 10px 0;
         border-radius: 4px;
     }
+    a#qrc{
+        width: 40%;
+        height: 20px;
+        margin: 10px 30%;
+        text-align: center;
+        background: #9E150B;
+        color: #fff;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: 10px 0;
+        border-radius: 4px;
+    }
 
 /*style para lista.html*/
 .container img#logo-lista{
@@ -88,6 +101,31 @@ a#voltar{
     width: 40%;
     height: 20px;
     margin: -150px 30% 0 30%;
+    text-align: center;
+    background: #9E150B;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*página do qrcode*/
+
+#hqrc{
+    text-align: center;
+    background: none;
+    margin-top: 20px;
+}
+#qrcode{
+    width: 30%;
+    margin: 10px 35%;
+}
+a#volta{
+    width: 20%;
+    height: 20px;
+    margin: 50px 40% 0 40%;
     text-align: center;
     background: #9E150B;
     color: #fff;
