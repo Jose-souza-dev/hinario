@@ -151,5 +151,34 @@ a#volta{
 }
 
 
+/*Botão de voltar para as páginas do cantor Cristão e Hinário IBT*/
+
+.voltando{
+    display: flex;
+    flex-direction: column;
+    margin: -60px 0 0 0;
+}
+
+.voltando li{
+    width: 60%;
+    margin: 5px 20%;
+    background: #fa5252;
+    color:#fff;
+    padding: 6px 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.voltando a{
+    width: 50%;
+    background: #fa5252;
+    color:#fff;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------------------*/
+
+
     
 }/*fim da média*/
