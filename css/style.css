@@ -45,6 +45,20 @@
         border-radius: 4px;
     }
 
+    a#hcristao{
+        width: 40%;
+        height: 20px;
+        margin: 10px 30%;
+        text-align: center;
+        background: #9E150B;
+        color: #fff;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: 10px 0;
+        border-radius: 4px;
+    }
+
 /*style para lista.html*/
 .container img#logo-lista{
     width: 20%;
@@ -135,6 +149,34 @@ a#volta{
     padding: 10px;
     border-radius: 10px;
 }
+
+/*Botão de voltar para as páginas do cantor Cristão e Hinário IBT*/
+
+.voltando{
+    display: flex;
+    flex-direction: column;
+    margin: -60px 0 0 0;
+}
+
+.voltando li{
+    width: 20%;
+    margin: 5px 40%;
+    background: #9E150B;
+    color:#fff;
+    padding: 6px 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.voltando a{
+    width: 50%;
+    background: #9E150B;
+    color:#fff;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------------------*/
 
 
     
