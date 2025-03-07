@@ -1,11 +1,12 @@
-@media(min-width:00px){
-    body{background: #FFE1CF; width: 100%; height: 100vh;}
+@media(min-width:501px){
+    body{background: #fff; width: 100%; height: 100vh;}
     *{margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;}
     .container{
         width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
+        background-color: #fff;
     }
 
     .aviso{
@@ -15,15 +16,15 @@
     }
 
    .container img#logo{
-        width: 60%;
-        margin: -100px 20% 0 20%;
+        width: 20%;
+        margin: 50px 40% 20px 40%;
     }
     .container a#hinario{
         width: 40%;
         height: 20px;
         margin: 10px 30%;
         text-align: center;
-        background: #9E150B;
+        background: #0077B6;
         color: #fff;
         font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
@@ -31,12 +32,17 @@
         padding: 10px 0;
         border-radius: 4px;
     }
+    h1#nome{
+        text-align: center;
+        font-size: 18px;
+        margin: 20px 0;
+    }
     a#qrc{
         width: 40%;
         height: 20px;
         margin: 10px 30%;
         text-align: center;
-        background: #9E150B;
+        background: #0077B6;
         color: #fff;
         font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
@@ -50,7 +56,7 @@
         height: 20px;
         margin: 10px 30%;
         text-align: center;
-        background: #9E150B;
+        background: #0077B6;
         color: #fff;
         font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
@@ -61,8 +67,8 @@
 
 /*style para lista.html*/
 .container img#logo-lista{
-    width: 20%;
-    margin: -80px 40% 0 40%;
+    width: 10%;
+    margin: 20px 45% 20px 45%;
 }
 .lista{
     width: 90%;
@@ -99,15 +105,29 @@ li{
     margin: -60px 5% 0 5%;
     text-align: center;
 }
-.musica h1{
+ h1{
     font-size: 18px;
-    color:#9E150B;
     text-align: center;
     margin: 20px 0;
 }
+.musica h1{
+    font-size: 18px;
+    color:#0b3a9e;
+    text-align: center;
+    margin: 20px 0;
+}
+
 p{
     font-size: 16px;
-    font-weight: bold;
+}
+
+p.versiculo{
+    width: 80%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    margin: 10px auto;
 }
 
 
@@ -152,21 +172,50 @@ a#volta{
 
 /*Botão de voltar para as páginas do cantor Cristão e Hinário IBT*/
 
-.voltando{
-    display: flex;
-    flex-direction: column;
-    margin: -60px 0 0 0;
+ul.voltando{
+    width: 90%;
+    height: 70px;
+    display: inline-block;
+    margin: 20px auto;
+}
+#hino{
+    background: #0077B6;
+}
+#cantor{
+    background-color: #0077B6;
 }
 
 .voltando li{
     width: 20%;
     margin: 5px 40%;
-    background: #9E150B;
+    background: #0077B6;
     color:#fff;
     padding: 6px 10px;
     text-align: center;
     border-radius: 6px;
 }
+
+.listas{
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    color:#0b3a9e;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#cinco{
+    padding: 10px 0;
+}
+
+.container img#logo-music{
+    width: 5%;
+    margin:60px auto;
+}
+
+
 
 .voltando a{
     width: 50%;
@@ -174,6 +223,21 @@ a#volta{
     color:#fff;
     padding: 6px 10px;
     text-decoration: none;
+}
+
+
+a#voltar{
+    width: 40%;
+    height: 20px;
+    margin: -10px 30% 0 30%;
+    text-align: center;
+    background: #0077B6;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 /*-----------------------------------------------------------------*/
