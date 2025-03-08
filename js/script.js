@@ -12,11 +12,13 @@
 
 
 function abrirFechar(){
-    let qrc = document.getElementById('qrc')
-    let btn = document.getElementById('btn')
-    if(qrc.style.display =='block'){
-        qrc.style.display ='none'
+    const menu = document.getElementById('menu');
+
+    if(menu.style.display ==='block'){
+        menu.style.display ='none';
+        
     }else{
-        qrc.style.display ='block'
+       menu.style.display ='block';
+       
     }
 }
