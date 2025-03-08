@@ -165,12 +165,12 @@ a#voltar{
     margin: 10px 5%;
 }
 
-a#volta{
+a#voltar{
     width: 40%;
     height: 20px;
     margin: 50px 30% 0 30%;
     text-align: center;
-    background: #9E150B;
+    background: #0077B6;
     color: #fff;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -179,6 +179,15 @@ a#volta{
     border-radius: 10px;
 }
 
+#back{
+    width: 40%;
+    margin: 10px auto;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 25px;
+}
 
 /*Botão de voltar para as páginas do cantor Cristão e Hinário IBT*/
 
@@ -206,6 +215,8 @@ a#volta{
     padding: 6px 10px;
     text-decoration: none;
 }
+
+
 
 /*-----------------------------------------------------------------*/
 

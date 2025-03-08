@@ -232,14 +232,22 @@ a#voltar{
     margin: -10px 30% 0 30%;
     text-align: center;
     background: #0077B6;
-    color: #fff;
+    color: #ffffff;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
 }
-
+#back{
+    width: 40%;
+    margin: 10px auto;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 25px;
+}
 /*-----------------------------------------------------------------*/
 
 
