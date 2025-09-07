@@ -80,6 +80,9 @@ Cores do site
         font-size: 18px;
         margin: 20px 0;
     }
+    .center{
+        text-align: center;
+    }
 
     p.versiculo{
         width: 80%;
