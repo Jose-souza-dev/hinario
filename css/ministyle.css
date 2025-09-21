@@ -14,54 +14,63 @@ Cores do site
     .navegation{
         width: 100%;
         height: 50px;
-        background-color: #002336;
+        background-color: #000000;
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-
-    .burger{
-       
     }
     
     .barra{
         width: 28px;
         height: 3px;
-        background-color: #fff;
+        background-color: #ffffff;
         border-radius: 6px;
         margin: 7px 10px;
     }
 
     ul.menu{
-        position: absolute;
+        position: relative;
         width: 100%;
         background-color: #002336;
-        margin: -10px 0;
-        padding: 10px;
+        margin: 0;
     }
     .navgationLi{
+        border-bottom: 1px solid #033f8d;
         list-style: none;
-        height: 20px;
+        width: 100%;
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: .4s;
+    }
+    .navgationLi:hover{
+        list-style: none;
+        background-color: #b9b9b9;
+        width: 100%;
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
-    .navgationLi a {
-        
-    }
 
     .esconder{
         display: none;
     }
     .aMenu{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 18x;
+        font-size: 18px;
         color: #ffffff;
         text-decoration: none;
     }
 
     .aMenu:hover{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 18x;
-        color: #0077B6;
+        font-size: 18px;
+        color: #1f1f1f;
         text-decoration: none;
     }
     
@@ -80,6 +89,15 @@ Cores do site
         font-size: 18px;
         margin: 20px 0;
     }
+    h1#aviso{
+        background-color: rgba(255, 0, 0);
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        margin: 10px auto;
+        width: 70%;
+        padding: 10px 0;
+    }
     .center{
         text-align: center;
     }
@@ -91,6 +109,16 @@ Cores do site
         font-size: 14px;
         font-style: italic;
         margin: 10px auto;
+    }
+
+        p.atention{
+        color:red;
+        width: 80%;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-style: italic;
+        margin: 0 auto;
     }
 
    .container img#logo{
@@ -146,7 +174,7 @@ Cores do site
 
 /*style para lista.html*/
 .container img#logo-lista{
-    width: 10%;
+    width: 8%;
     margin: 20px 47% 10px 48%;
 }
 .lista{
@@ -161,12 +189,13 @@ ul{
 li{
     list-style: none;
     margin: 15px 0;
+    text-align: center;
 }
 .listas{
     width: 100%;
     text-align: center;
     background: #fff;
-    color:#0b3a9e;
+    color:#414141;
     font-weight: normal;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;

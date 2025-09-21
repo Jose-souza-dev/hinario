@@ -130,6 +130,20 @@ p.versiculo{
     margin: 10px auto;
 }
 
+p.atention{
+    background-color: red;
+    border-radius: 10px;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px auto;
+    padding: 5px;
+
+}
+
 
 a#voltar{
     width: 40%;

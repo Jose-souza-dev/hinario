@@ -8,7 +8,7 @@
         }
 
         // Chama a função para verificar o tamanho da tag body e exibir o aviso, se necessário
-        aviso();
+        //aviso();
 
 
 function abrirFechar(){
