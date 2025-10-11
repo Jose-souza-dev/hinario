@@ -1,0 +1,44 @@
+@media (max-width:400px) {
+/*somente textos*/
+
+    p{
+        margin:10px;
+    }
+
+    p.versiculo{
+        margin:10px;
+        font-size: 18px;
+    }
+
+    p.atention{
+        font-size: 20px;
+    }
+    p.titulo{
+        color:#fff;
+    }
+
+    h1.titulos{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 600;
+        color: #8cbeff;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    p.interprete{
+        margin: -10px 0 20px 0;
+        color:rgb(145, 218, 255);
+        font-weight: 500;
+        font-style: italic;
+    }
+    p.letras{
+        width: 95%;
+        color:#fff;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    
+
+
+}

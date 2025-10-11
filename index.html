@@ -3,52 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/ministyle.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
-    <link rel="stylesheet" href="css/tangara-seledon.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/mobile400.css">
+    <link rel="stylesheet" href="css/text-mobile.css">
     <title>IS6:3</title>
 </head>
 <body>
-    <nav class="navegation">
-        <div class="burger" id="burger" onclick="abrirFechar()">
-            <div class="barra"></div>
-            <div class="barra"></div>
-            <div class="barra"></div>
-        </div>
-    </nav>
-    <ul class="menu esconder" id="menu">
-        <li class="navgationLi"><a href="index.html" class="aMenu">Home</a></li>
-        <li class="navgationLi"><a href="novidade.html" class="aMenu">Novidades</a></li>
-        <li class="navgationLi"><a href="ouvir.html" class="aMenu">Ouvir</a></li>
-    </ul>
-    <div class="container ">
-
-        <h1 id="aviso">Atenção!</h1>
-
-        <p class="atention">
-            Ao abrir o hinário, você já está em um ato de culto. 
-            Esqueça as notificações que estão chegando!
-        </p>
-
-        <img src="img/logo-pequena.png" alt="" id="logo">
-
-        <a href="lista.html" id="hinario" class="ts008b">Hinário da igreja</a>
-        <a href="cantor.html" id="hcristao">Cantor Cristão</a>
-        <a href="qrcode.html" id="qrc">Qrcode</a>
-
-        <h1 id="nome">IS6:3</h1>
-
+    <main>
+        <header>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#" class="emphasis-link">
+                        IS6:3
+                    </a>
+                </li>
+               <li>
+                    <a href="#" class="menu-link">
+                        Novidades
+                    </a>
+                </li>
+               <li>
+                    <a href="#" class="menu-link">
+                        Ouvir
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <img src="img/favicon.png" alt="" class="img-menu">
+    </header>
+    </main>
+    <section class="hero">
+        <p>Versículo</p>
         <p class="versiculo">
-            E clamavam uns para os outros, dizendo: 
-            "Santo, santo, santo é o Senhor dos Exércitos; toda a terra está cheia da sua glória."
-        </p>
+            E clamavam uns para os outros, dizendo: <br>
+            "Santo, santo, santo
+            é o Senhor dos <br> Exércitos;
+            toda a terra está cheia <br>
+            da sua glória."  <br> <br>
 
-    </div><!--fim da container-->
+            Isaías 6:3
+        </p>
+    </section>
+
+    <section class="aviso">
+        <div class="culto">
+
+        </div>
+        <div class="atencao">
+            <p class="atention">
+                Ao abrir o hinário, 
+                você já está em um ato de culto. Esqueça as notificações que estão 
+                chegando!
+            </p>
+        </div>
+    </section>
+
+    <nav class="navegation">
+        <ul class="ulNavegation">
+            <li class="liNavegation">
+                <a href="lista.html" class="ANavegation">
+                    Hinário IBT
+                </a>
+            </li>
+
+            <li class="liNavegation">
+                <a href="cantor.html" class="ANavegation">
+                    Cantor Cristão
+                </a>
+            </li>
+            <li class="liNavegation">
+                <a href="qrcode.html" class="ANavegation">
+                    Qrcode
+                </a>
+            </li>
+        </ul>
+    </nav>
     <footer>
-        Versão 0.0.2
+        <p>&copy;Todos direitos reservados vizibou</p>
     </footer>
-    <script src="js/script.js" defer></script>
 </body>
 </html>
