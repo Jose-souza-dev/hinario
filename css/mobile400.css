@@ -232,4 +232,20 @@
         height: 40px;
     }
 
+    /*área da página ouvir.html*/
+
+    div.video{
+        width: 90%;
+        margin: 0 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itens-video{
+        width: 100%;
+        border-radius: 8px;
+        margin: 10px 0;
+    }
+
 }
