@@ -1,269 +1,290 @@
-@media(min-width:501px){
-    body{background: #fff; width: 100%; height: 100vh;}
-    *{margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;}
-    .container{
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    /* Coloque aqui os estilos CSS que serão aplicados
+       SOMENTE quando a largura da tela estiver entre 401px e 1000px (inclusive). */
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+ 
+    header{
         width: 100%;
-        height: 100%;
+        height: 40px;
+        background: #ffffff;
         display: flex;
-        flex-direction: column;
-        background-color: #fff;
+        flex-direction: row;
+        align-items: center;
+    }
+/*área de menu*/
+    nav{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+    ul{
+        width: 95%;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: 10px;
+        align-items: center;
+        list-style-type: none;
+        margin-left: 10px;
+    }
+    a.emphasis-link{
+        text-decoration: none;
+        color:#444;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+    }
+    a.menu-link{
+        text-decoration: none;
+        color:#444;
     }
 
-    .aviso{
+    img.img-menu{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+/*área de menu------------------------------------------*/
+
+    /*área de hero da index*/
+
+    section.hero{
+        width: 95%;
+        height: 420px;
+        background: #ffffff;
+        background-image: url("../img/fundo-hero.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: 10px auto;
+        padding-top: 10px;
+        border-radius: 8px;
+    }
+    /*área de hero da index---------------------------------*/
+
+    /*área section da index*/
+    section.aviso{
+        width: 95%;
+        height: 220px;
+        background-size: 100%;
+        margin: 10px auto;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    div.culto{
+        width: 49%;
+        height: 420px;
+        background:#069;
+        background-image: url("../img/fundo-aviso.png");
+        background-size: 100%;
+        border-radius: 8px;
+    }
+
+    div.atencao{
+        width: 49%;
+        height: 420px;
+        background:#fff;
+        border: 1px solid #BEBBBB;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    /*área de section---------------------------------*/
+
+
+    /*área de navegação para as músicas*/
+
+    nav.navegation{
+        width: 95%;
+        height: 150px;
+        margin: 200px 2.5% 70px 2.5%;
+    }
+
+    ul.ulNavegation{
+        width: 95%;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 2.5% 10px 2.5%;
+    }
+    li.liNavegation{
+        width: 100%;
+        background-color: #3C8AFF;
+        border-radius: 4px;
+        padding: 10px;
         text-align: center;
-        color:red;
+        list-style-type: none;
+    }
+    
+
+    a.ANavegation{
+        text-decoration: none;
+        color:#000;
+    }
+    /*área de navegação para as músicas---------------------------------*/
+
+    footer{
+        width: 100%;
+        height: 40px;
+        background: #ddd;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed; /* Fixa o elemento em relação à viewport */
+        bottom: 0; /* Alinha-o à parte inferior */
+        left: 0; /* Alinha-o à margem esquerda */  
+    }
+
+    /*área de listas da músicas*/
+
+    #black{
+        background: #333;
+    }
+    #cabecalho{
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.papel{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-color: #333;
+        margin-bottom: 70px;
+    }
+    #logo-lista{
+        margin: 10px auto;
+    }
+    div.lista{
+        width: 100%;
+        height: 100vh;
+        margin:-10px 0 40px 0;
+    }
+    ul#music{
+        width: 95%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    li.compor{
+        width: 95%;
+        height: 40px;
+        background-color: #575757;
+        border-radius: 8px;
+        margin: 1px 2.5%;
+        padding: 10px;
+        list-style: none;
+    }
+
+    /*Essa classe é somente para a conferência*/
+    .marc{
+        color:rgb(0, 255, 0);
+        font-weight: bold;
+    }
+
+    a{
+        text-decoration: none;
+        color:#fff;
+        font-size: 15px;
+    }
+
+    div.musica{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imgmic{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        background-color: #333;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    img#logo-music{
+        width: 20px;
+        margin: 10px auto;
+    }
+
+    #voltar{
+        width: 40px;
+        height: 40px;
+    }
+    #votar img{
+        width: 40px;
+        height: 40px;
+    }
+
+    /*área da página ouvir.html*/
+
+    div.video{
+        width: 90%;
+        margin: 0 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itens-video{
+        width: 100%;
+        border-radius: 8px;
         margin: 10px 0;
     }
 
-   .container img#logo{
-        width: 20%;
-        margin: 50px 40% 20px 40%;
-    }
-    .container a#hinario{
-        width: 40%;
-        height: 20px;
-        margin: 10px 30%;
-        text-align: center;
-        background: #0077B6;
-        color: #fff;
-        font-size: 16px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-        padding: 10px 0;
-        border-radius: 4px;
-    }
-    h1#nome{
-        text-align: center;
-        font-size: 18px;
-        margin: 20px 0;
-    }
-    a#qrc{
-        width: 40%;
-        height: 20px;
-        margin: 10px 30%;
-        text-align: center;
-        background: #0077B6;
-        color: #fff;
-        font-size: 16px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-        padding: 10px 0;
-        border-radius: 4px;
+    /*área do qrcode*/
+
+    #display{
+        width: 90%;
+        height: 460px;
+        /*background-color: red;*/
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    a#hcristao{
-        width: 40%;
-        height: 20px;
-        margin: 10px 30%;
-        text-align: center;
-        background: #0077B6;
-        color: #fff;
-        font-size: 16px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-        padding: 10px 0;
-        border-radius: 4px;
+    #qrcode{
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    #back{
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #voltar{
+        padding: 20px;
+        background-image: url('../img/voltar.svg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        color:#fff;
     }
 
-/*style para lista.html*/
-.container img#logo-lista{
-    width: 10%;
-    margin: 20px 45% 20px 45%;
-}
-.lista{
-    width: 90%;
-    height: 800px;
-    margin: 10px 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-li{
-    list-style: none;
-    margin: 15px 0;
-}
-.listas{
-    width: 100%;
-    text-align: center;
-    background: #FFE1CF;
-    color:#9E150B;
-    font-weight: bolder;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
-
-/*style para músicas*/
-.container img#logo-music{
-    width:20%;
-    margin:-70px 40% 0 40%;
-}
-.musica{
-    width: 90%;
-    height: 100vh;
-
-    margin: -60px 5% 0 5%;
-    text-align: center;
-}
- h1{
-    font-size: 18px;
-    text-align: center;
-    margin: 20px 0;
-}
-.musica h1{
-    font-size: 18px;
-    color:#0b3a9e;
-    text-align: center;
-    margin: 20px 0;
-}
-
-p{
-    font-size: 16px;
-}
-
-p.versiculo{
-    width: 80%;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-style: italic;
-    margin: 10px auto;
-}
-
-p.atention{
-    background-color: red;
-    border-radius: 10px;
-    color: #fff;
-    width: 80%;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    margin: 10px auto;
-    padding: 5px;
-
-}
-
-
-a#voltar{
-    width: 40%;
-    height: 20px;
-    margin: -150px 30% 0 30%;
-    text-align: center;
-    background: #9E150B;
-    color: #fff;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-/*página do qrcode*/
-
-#hqrc{
-    text-align: center;
-    background: none;
-    margin-top: 20px;
-}
-#qrcode{
-    width: 30%;
-    margin: 10px 35%;
-}
-a#volta{
-    width: 20%;
-    height: 20px;
-    margin: 50px 40% 0 40%;
-    text-align: center;
-    background: #9E150B;
-    color: #fff;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-/*Botão de voltar para as páginas do cantor Cristão e Hinário IBT*/
-
-ul.voltando{
-    width: 90%;
-    height: 70px;
-    display: inline-block;
-    margin: 20px auto;
-}
-#hino{
-    background: #0077B6;
-}
-#cantor{
-    background-color: #0077B6;
-}
-
-.voltando li{
-    width: 20%;
-    margin: 5px 40%;
-    background: #0077B6;
-    color:#fff;
-    padding: 6px 10px;
-    text-align: center;
-    border-radius: 6px;
-}
-
-.listas{
-    width: 100%;
-    text-align: center;
-    background: #fff;
-    color:#0b3a9e;
-    font-weight: normal;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
-
-#cinco{
-    padding: 10px 0;
-}
-
-.container img#logo-music{
-    width: 5%;
-    margin:60px auto;
-}
-
-
-
-.voltando a{
-    width: 50%;
-    background: #9E150B;
-    color:#fff;
-    padding: 6px 10px;
-    text-decoration: none;
-}
-
-
-a#voltar{
-    width: 40%;
-    height: 20px;
-    margin: -10px 30% 0 30%;
-    text-align: center;
-    background: #0077B6;
-    color: #ffffff;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 10px;
-}
-#back{
-    width: 40%;
-    margin: 10px auto;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-right: 25px;
-}
-/*-----------------------------------------------------------------*/
-
-
-    
-}/*fim da média*/
+}/*fim da média query*/
