@@ -15,11 +15,12 @@
     }
     p.titulo{
         color:#fff;
+        font-size: 25px;
     }
 
     h1.titulos{
         width: 100%;
-        font-size: 18px;
+        font-size: 30px;
         font-weight: 600;
         color: #8cbeff;
         text-align: center;
@@ -28,12 +29,14 @@
     p.interprete{
         margin: -10px 0 20px 0;
         color:rgb(145, 218, 255);
+        font-size: 28px;
         font-weight: 500;
         font-style: italic;
     }
     p.letras{
         width: 95%;
         color:#fff;
+        font-size: 25px;
         text-align: center;
         margin: 0 auto;
     }

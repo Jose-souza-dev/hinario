@@ -174,7 +174,7 @@
         margin-bottom: 70px;
     }
     #logo-lista{
-        margin: 10px auto;
+        margin: 30px auto 10px auto;
     }
     div.lista{
         width: 100%;
@@ -208,6 +208,9 @@
         text-decoration: none;
         color:#fff;
         font-size: 15px;
+    }
+    a.listas{
+        font-size: 20px;
     }
 
     div.musica{
