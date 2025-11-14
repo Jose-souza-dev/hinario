@@ -203,6 +203,15 @@
         color:rgb(0, 255, 0);
         font-weight: bold;
     }
+    /*marca texto no background*/
+    li.highlighter{
+        background-color: rgb(0, 205, 0);
+        color: #000;
+    }
+
+    li.highlighter a{
+        color: #000;
+    }
 
     a{
         text-decoration: none;
