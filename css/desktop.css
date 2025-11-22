@@ -56,6 +56,10 @@
         flex-direction: column;
         justify-content: center;
     }
+    li.highlighter{
+        background-color:rgb(0, 205, 0);
+        
+    }
 
     /*área de pesquisa*/
     div#buscar {
@@ -322,4 +326,4 @@
     #back {
         margin-top: 70px;
     }
-}
+}/*Fim da desktop*/
