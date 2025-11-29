@@ -240,7 +240,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: fixed;
+        position: static;
         /* Fixa o elemento em relação à viewport */
         bottom: 0;
         /* Alinha-o à parte inferior */
