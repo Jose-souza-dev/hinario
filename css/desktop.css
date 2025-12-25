@@ -56,9 +56,14 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    /* classe marca-texto */
     li.highlighter{
         background-color:rgb(0, 205, 0);
-        
+    }
+
+    li.highlighter-orange{
+        background-color:rgb(245, 91, 2);
     }
 
     /*área de pesquisa*/
