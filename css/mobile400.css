@@ -65,9 +65,18 @@
         background-image: url("../img/fim-de-ano.png");
         background-size: 118%;
         background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin: 10px auto;
         padding-top: 10px;
         border-radius: 8px;
+        
+    }
+
+    p.versiculo{
+        text-shadow: 1px 1px 1px #333;
     }
 
     /*área de hero da index---------------------------------*/
@@ -136,7 +145,7 @@
 
     a.ANavegation {
         text-decoration: none;
-        color: #000;
+        color: #fff;
     }
 
     /*área de navegação para as músicas---------------------------------*/
