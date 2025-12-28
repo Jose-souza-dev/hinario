@@ -58,12 +58,12 @@
     }
 
     /* classe marca-texto */
-    li.highlighter{
-        background-color:rgb(0, 205, 0);
+    li.highlighter {
+        background-color: rgb(0, 205, 0);
     }
 
-    li.highlighter-orange{
-        background-color:rgb(245, 91, 2);
+    li.highlighter-orange {
+        background-color: rgb(245, 91, 2);
     }
 
     /*área de pesquisa*/
@@ -242,16 +242,14 @@
         height: 40px;
         background: #ddd;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: static;
-        /* Fixa o elemento em relação à viewport */
+
+        position: fixed;
+        /* Fixa o elemento na tela */
         bottom: 0;
-        /* Alinha-o à parte inferior */
+        /* Alinha no limite inferior */
         left: 0;
-        /* Alinha-o à margem esquerda */
-        margin-top: 290px;
     }
 
     /*área de listas*/
@@ -331,4 +329,6 @@
     #back {
         margin-top: 70px;
     }
-}/*Fim da desktop*/
+}
+
+/*Fim da desktop*/
