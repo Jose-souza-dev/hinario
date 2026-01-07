@@ -63,7 +63,7 @@
         width: 95%;
         height: 220px;
         background: #ccc;
-        background-image: url("../img/fim-de-ano.png");
+        background-image: url("../img/montanhas.jpg");
         background-size: 118%;
         background-repeat: no-repeat;
         display: flex;
@@ -77,7 +77,8 @@
     }
 
     p.versiculo {
-        text-shadow: 1px 1px 1px #333;
+        text-shadow: 1px 1px 1px #2e2e2e;
+        font-size: 14px;
     }
 
     /*área de hero da index---------------------------------*/

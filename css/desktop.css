@@ -139,7 +139,7 @@
         height: 400px;
         margin: 10px auto;
         background-color: #ccc;
-        background-image: url("../img/fundo-hero.png");
+        background-image: url("../img/montanhas.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
         background-position-y: -300px;
@@ -150,8 +150,9 @@
     }
 
     p.versiculo {
+        width: 40%;
         margin-left: 100px;
-        font-size: 35px;
+        font-size: 14px;
     }
 
     p.atention {
