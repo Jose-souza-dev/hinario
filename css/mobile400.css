@@ -81,7 +81,7 @@
         height: 100px;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(43, 43, 43, 0.5);
-        margin-top: -100px;
+        margin-top: 100px;
     }
 
     .navega {
@@ -95,7 +95,7 @@
     }
 
     .navega li{
-        width:80%;
+        width:50%;
         height: 40px;
         background-color: #3C8AFF;
         border-radius: 4px;
@@ -105,21 +105,23 @@
         justify-content: center;
         align-items: center;
         margin-top: -10px;
-        font-weight: 900;
+        font-weight: 700;
     }
 
     /*área de hero da index---------------------------------*/
 
     /*área section da index*/
-    section.aviso {
+    .aviso {
         width: 95%;
         height: 220px;
         background-size: 100%;
+        color: #333;
         margin: 10px auto;
         border-radius: 8px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        text-align: justify;
     }
 
     div.culto {
