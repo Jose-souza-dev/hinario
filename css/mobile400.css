@@ -18,13 +18,14 @@
 
     /*área de menu*/
 
-    .menu-front{
+    .menu-front {
         width: 100%;
         height: 40px;
-        border-bottom: 2px solid #868686;    
+        border-bottom: 2px solid #868686;
         display: flex;
         flex-direction: row;
     }
+
     nav {
         width: 100%;
         height: 40px;
@@ -80,7 +81,7 @@
 
     }
 
-    .img-logo{
+    .img-logo {
         width: 64px;
         height: 64px;
         border-radius: 10px;
@@ -98,8 +99,8 @@
         margin-top: 60px;
     }
 
-    .navega li{
-        width:50%;
+    .navega li {
+        width: 50%;
         height: 40px;
         background-color: #069;
         border-radius: 4px;
@@ -150,6 +151,15 @@
     }
 
     /*área de section---------------------------------*/
+
+    /*ÁREA DE REFRÃO*/
+
+    b.destaque {
+        background-color: yellow;
+        display: inline-block;
+    }
+
+    /*------------------------------------------------*/
 
 
     /*área de navegação para as músicas*/
