@@ -153,6 +153,10 @@
     /*área de section---------------------------------*/
 
     /*ÁREA DE REFRÃO*/
+    .destaque{
+        background-color: yellow;
+        display: inline-block;
+    }
 
     b.destaque {
         background-color: yellow;

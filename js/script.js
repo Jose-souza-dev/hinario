@@ -36,3 +36,11 @@ document.querySelector("#search").addEventListener("input", buscar);
 
 
 //--------------------------------------
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const elementosB = document.querySelectorAll('b');
+    elementosB.forEach(elemento => {
+        elemento.classList.add('destaque');
+    });
+});
