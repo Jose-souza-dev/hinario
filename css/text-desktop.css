@@ -5,9 +5,11 @@
         margin:10px;
     }
 
-    p.versiculo{
+
+    p.aviso{
         margin:10px;
-        font-size: 25px;
+        font-size: 16px;
+        color: #666;
     }
 
     p.atention{
